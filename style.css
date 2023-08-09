@@ -1,0 +1,145 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+.container {
+     width: 200px;
+     height: 200px;
+     border: 2px solid black;
+     background: linear-gradient(yellow, red);
+     margin: auto;
+     margin-top: 100px;
+}
+
+.con_li {
+     display: flex;
+     list-style: none;
+     margin-top: 85px;
+     gap: 20px;
+     justify-content: center;
+}
+
+.con_li li:nth-child(1) {
+     width: 30px;
+     height: 30px;
+     background-color: white;
+     border-radius: 50%;
+     animation-name: Xushnudbek001;
+     animation-timing-function: linear;
+     animation-duration: 3s;
+     animation-iteration-count: infinite;
+     z-index: 15;
+
+}
+
+.con_li li:nth-child(2) {
+     width: 30px;
+     height: 30px;
+     background-color: white;
+     border-radius: 50%;
+     animation-name: Xushnudbek002;
+     animation-timing-function: linear;
+     animation-duration: 3s;
+     animation-iteration-count: infinite;
+     animation-delay: 1s;
+     z-index: 15;
+
+
+
+}
+
+.con_li li:nth-child(3) {
+     width: 30px;
+     height: 30px;
+     background-color: white;
+     border-radius: 50%;
+     animation-name: Xushnudbek003;
+     animation-timing-function: linear;
+     animation-duration: 3s;
+     animation-iteration-count: infinite;
+     animation-delay: 1.5s;
+     z-index: 10;
+
+
+}
+
+@keyframes Xushnudbek001 {
+     0% {
+          transform: translateX(0);
+     }
+
+     25% {
+          transform: translateX(50px);
+     }
+
+     50% {
+          transform: translateX(50px);
+     }
+
+     75% {
+          transform: translateX(60px);
+     }
+
+     90% {
+          transform: translateX(100px);
+     }
+
+     95% {
+          transform: translateX(100px);
+     }
+
+     100% {
+          transform: translateX(100px);
+          width: 30px;
+          height: 30px;
+     }
+
+
+}
+
+@keyframes Xushnudbek002 {
+     0% {
+          transform: translateX(0);
+     }
+
+     25% {
+          transform: translateX(50px);
+     }
+
+     50% {
+          transform: translateX(50px);
+     }
+
+     75% {
+          transform: translateX(-60px);
+     }
+
+     100% {
+          transform: translateX(5px);
+     }
+}
+
+@keyframes Xushnudbek003 {
+     0% {
+          transform: translateX(0);
+     }
+
+     25% {
+          transform: translateX(-105px);
+     }
+
+     50% {
+          transform: translateX(-50px);
+     }
+
+     75% {
+          transform: translateX(-50px);
+
+     }
+
+     100% {
+          transform: translate(5px);
+     }
+}
